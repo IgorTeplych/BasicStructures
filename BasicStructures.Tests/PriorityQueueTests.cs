@@ -10,7 +10,7 @@ namespace BasicStructures.Tests
 
         [Test]
         public void TestOfPrioritets()
-        {
+        { 
             BasicStructures.PriorityQueue<int> queue = new BasicStructures.PriorityQueue<int>();
 
             Assert.AreEqual(0, queue.Size);
